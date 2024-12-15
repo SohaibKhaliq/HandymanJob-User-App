@@ -8,6 +8,7 @@ import 'package:nb_utils/nb_utils.dart';
 import 'language_en.dart';
 import 'languages_de.dart';
 import 'languages_fr.dart';
+import 'language_cs.dart';
 
 class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
   const AppLocalizations();
@@ -27,6 +28,8 @@ class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
         return LanguageDe();
       case 'ro':
         return LanguageRo();
+      case 'cs':
+        return LanguageCs();
 
       default:
         return LanguageRo();
@@ -34,7 +37,8 @@ class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
   }
 
   @override
-  bool isSupported(Locale locale) => LanguageDataModel.languages().contains(locale.languageCode);
+  bool isSupported(Locale locale) =>
+      LanguageDataModel.languages().contains(locale.languageCode);
 
   @override
   bool shouldReload(LocalizationsDelegate<BaseLanguage> old) => false;
