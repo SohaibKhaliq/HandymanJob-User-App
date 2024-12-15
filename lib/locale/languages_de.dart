@@ -15,6 +15,9 @@ class LanguageDe extends BaseLanguage {
   String get getStarted => "Loslegen";
 
   @override
+  String get advancedRefund => "Erweiterte Rückerstattung";
+
+  @override
   String get signIn => "Einloggen";
 
   @override
@@ -1874,7 +1877,7 @@ class LanguageDe extends BaseLanguage {
   @override
   String get noteAddressIsNot => 'Hinweis: Für Remote-Dienste ist keine Adresse erforderlich.';
 
-  @override
+ @override
   String get wouldYouLikeTo => 'Möchten Sie fortfahren und diese Buchung bestätigen?';
 
   @override
@@ -1897,16 +1900,16 @@ class LanguageDe extends BaseLanguage {
 
   @override
   String get totalCancellationFee => 'Gesamte Stornogebühr';
-
+  
   @override
   String get goBack => 'Geh zurück';
 
   @override
   String get bookingCancelled => 'Buchung storniert';
-
+  
   @override
   String get yourBookingHasBeen => 'Ihre Buchung wurde erfolgreich storniert. Die entsprechende Rückerstattung wird innerhalb von 24 Stunden bearbeitet';
-
+  
   @override
   String get noteCheckYourBooking => 'Hinweis: Überprüfen Sie Ihren Buchungsverlauf auf Rückerstattungsdetails';
 
@@ -1930,7 +1933,7 @@ class LanguageDe extends BaseLanguage {
 
   @override
   String get hoursOfTheScheduled => 'Stunden des geplanten Gottesdienstes';
-
+ 
   @override
   String get open => 'OFFEN';
 
@@ -2016,50 +2019,44 @@ class LanguageDe extends BaseLanguage {
   String get removeImage => 'Bild entfernen';
 
   @override
-  String get advancedRefund => 'Erweiterte Rückerstattung';
+  String get dateRange => 'Datumsbereich';
 
   @override
   String get lblService => 'Service';
 
   @override
-  String get dateRange => 'Datumsbereich';
-
-  @override
   String get paymentType => 'Zahlungsart';
 
   @override
-  String get reset => 'Zurücksetzen';
+String get chooseYourDateRange => 'Wählen Sie Ihren Datumsbereich';
 
-  @override
-  String get noStatusFound => 'Kein Status gefunden';
+@override
+String get handymanNotFound => 'Handwerker nicht gefunden';
 
-  @override
-  String get selectStartDateEndDate => 'Wählen Sie Startdatum und Enddatum';
+@override
+String get mobile => 'Mobil';
 
-  @override
-  String get handymanNotFound => 'Handwerker nicht gefunden';
+@override
+String get noStatusFound => 'Kein Status gefunden';
 
-  @override
-  String get providerNotFound => 'Anbieter nicht gefunden';
+@override
+String get providerNotFound => 'Anbieter nicht gefunden';
 
-  @override
-  String get rateYourExperience => 'Bewerten Sie Ihre Erfahrung';
+@override
+String get rateYourExperience => 'Bewerten Sie Ihre Erfahrung';
 
-  @override
-  String get weValueYourFeedback => 'Wir schätzen Ihr Feedback! Bitte bewerten Sie Ihre jüngsten Erfahrungen mit unserem Service';
+@override
+String get reset => 'Zurücksetzen';
 
-  @override
-  String get viewStatus => 'Status anzeigen';
+@override
+String get selectStartDateEndDate => 'Wählen Sie Start- und Enddatum';
 
-  @override
-  String get paymentInfo => 'Zahlungsinformationen';
+@override
+String get to => 'Zu';
 
-  @override
-  String get mobile => 'Mobile:';
+@override
+String get viewStatus => 'Status anzeigen';
 
-  @override
-  String get to => 'Zu';
-
-  @override
-  String get chooseYourDateRange => 'Wählen Sie Ihren Datumsbereich';
+@override
+String get weValueYourFeedback => 'Wir schätzen Ihr Feedback';
 }
