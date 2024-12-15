@@ -7,6 +7,18 @@ class LanguageHi extends BaseLanguage {
   String get walkTitle1 => 'अपना खाता बनाएं और सेट करें';
 
   @override
+  String get dateRange => 'तारीख़ सीमा';
+
+  @override
+  String get lblService => 'सेवा';
+
+  @override
+  String get paymentType => 'भुगतान प्रकार';
+
+  @override
+  String get advancedRefund=> 'उन्नत रिफंड';
+
+  @override
   String get walkTitle2 => 'ब्राउज़ करें और सेवाएँ बुक करें';
 
   @override
@@ -1875,7 +1887,7 @@ class LanguageHi extends BaseLanguage {
   @override
   String get noteAddressIsNot => 'नोट: दूरस्थ सेवाओं के लिए पता आवश्यक नहीं है।';
 
-  @override
+   @override
   String get wouldYouLikeTo => 'क्या आप आगे बढ़ना और इस बुकिंग की पुष्टि करना चाहेंगे?';
 
   @override
@@ -1904,10 +1916,10 @@ class LanguageHi extends BaseLanguage {
 
   @override
   String get bookingCancelled => 'बुकिंग रद्द';
-
+  
   @override
   String get yourBookingHasBeen => 'आपकी बुकिंग सफलतापूर्वक रद्द कर दी गई है. लागू रिफंड 24 घंटे के भीतर संसाधित किया जाएगा';
-
+  
   @override
   String get noteCheckYourBooking => 'नोट: रिफंड विवरण के लिए अपना बुकिंग इतिहास जांचें';
 
@@ -2017,50 +2029,35 @@ class LanguageHi extends BaseLanguage {
   String get removeImage => 'छवि हटाएँ';
 
   @override
-  String get advancedRefund => 'उन्नत धनवापसी';
+  String get chooseYourDateRange => 'अपनी तिथि सीमा चुनें';
 
   @override
-  String get lblService => 'सेवा';
+  String get handymanNotFound => 'हैंडमैन नहीं मिला';
 
   @override
-  String get dateRange => 'दिनांक सीमा';
-
-  @override
-  String get paymentType => 'भुगतान प्रकार';
-
-  @override
-  String get reset => 'रीसेट करें';
+  String get mobile => 'मोबाइल';
 
   @override
   String get noStatusFound => 'कोई स्थिति नहीं मिली';
 
   @override
-  String get selectStartDateEndDate => 'आरंभ तिथि और समाप्ति तिथि चुनें';
-
-  @override
-  String get handymanNotFound => 'सहायक नहीं मिला';
-
-  @override
   String get providerNotFound => 'प्रदाता नहीं मिला';
 
   @override
-  String get rateYourExperience => 'अपने अनुभव को रेटिंग दें';
+  String get rateYourExperience => 'अपने अनुभव को रेट करें';
 
   @override
-  String get weValueYourFeedback => 'हम आपकी प्रतिक्रिया को महत्व देते हैं! कृपया हमारी सेवा के साथ अपने हालिया अनुभव को रेटिंग दें';
+  String get reset => 'रीसेट';
+
+  @override
+  String get selectStartDateEndDate => 'प्रारंभ और समाप्ति तिथि चुनें';
+
+  @override
+  String get to => 'तक';
 
   @override
   String get viewStatus => 'स्थिति देखें';
 
   @override
-  String get paymentInfo => 'भुगतान जानकारी';
-
-  @override
-  String get mobile => 'गतिमान:';
-
-  @override
-  String get to => 'को';
-
-  @override
-  String get chooseYourDateRange => 'अपनी दिनांक सीमा चुनें';
+  String get weValueYourFeedback => 'हम आपके फीडबैक को महत्व देते हैं';
 }
