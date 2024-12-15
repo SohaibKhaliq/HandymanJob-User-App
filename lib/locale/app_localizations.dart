@@ -1,10 +1,11 @@
 import 'package:booking_system_flutter/locale/language_ar.dart';
-import 'package:booking_system_flutter/locale/language_en.dart';
+import 'package:booking_system_flutter/locale/language_ro.dart';
 import 'package:booking_system_flutter/locale/language_hi.dart';
 import 'package:booking_system_flutter/locale/languages.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
+import 'language_en.dart';
 import 'languages_de.dart';
 import 'languages_fr.dart';
 
@@ -24,9 +25,11 @@ class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
         return LanguageFr();
       case 'de':
         return LanguageDe();
+      case 'ro':
+        return LanguageRo();
 
       default:
-        return LanguageEn();
+        return LanguageRo();
     }
   }
 
