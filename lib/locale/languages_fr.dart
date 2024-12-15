@@ -2,8 +2,21 @@ import '../utils/configs.dart';
 import 'languages.dart';
 
 class LanguageFr extends BaseLanguage {
+
+  @override
+  String get dateRange => 'Plage de dates';
+
+  @override
+  String get lblService => 'Service';
+
+  @override
+  String get paymentType => 'Type de paiement';
+
   @override
   String get walkTitle1 => 'Créez et configurez votre compte';
+
+  @override
+  String get advancedRefund => 'Remboursement avancé';
 
   @override
   String get walkTitle2 => 'Parcourir et réserver des services';
@@ -1904,10 +1917,10 @@ class LanguageFr extends BaseLanguage {
 
   @override
   String get bookingCancelled => 'Réservation annulée';
-
+  
   @override
   String get yourBookingHasBeen => 'Votre réservation a été annulée avec succès. Le remboursement applicable sera traité dans les 24 heures';
-
+  
   @override
   String get noteCheckYourBooking => 'Remarque : Vérifiez votre historique de réservation pour connaître les détails du remboursement.';
 
@@ -1925,7 +1938,7 @@ class LanguageFr extends BaseLanguage {
 
   @override
   String get cancellationFee => "Frais d'annulation";
-
+  
   @override
   String get advancedPayment => 'Paiement anticipé';
 
@@ -2017,50 +2030,35 @@ class LanguageFr extends BaseLanguage {
   String get removeImage => "Supprimer l'image";
 
   @override
-  String get advancedRefund => 'Remboursement avancé';
+String get chooseYourDateRange => 'Choisissez votre plage de dates';
 
-  @override
-  String get lblService => 'Service';
+@override
+String get handymanNotFound => 'Bricoleur non trouvé';
 
-  @override
-  String get dateRange => 'Plage de dates';
+@override
+String get mobile => 'Mobile';
 
-  @override
-  String get paymentType => 'Type de paiement';
+@override
+String get noStatusFound => 'Aucun statut trouvé';
 
-  @override
-  String get reset => 'Réinitialiser';
+@override
+String get providerNotFound => 'Fournisseur non trouvé';
 
-  @override
-  String get noStatusFound => 'Aucun statut trouvé';
+@override
+String get rateYourExperience => 'Évaluez votre expérience';
 
-  @override
-  String get selectStartDateEndDate => 'Sélectionnez la date de début et la date de fin';
+@override
+String get reset => 'Réinitialiser';
 
-  @override
-  String get handymanNotFound => 'Bricoleur introuvable';
+@override
+String get selectStartDateEndDate => 'Sélectionnez la date de début et de fin';
 
-  @override
-  String get providerNotFound => 'Fournisseur introuvable';
+@override
+String get to => 'À';
 
-  @override
-  String get rateYourExperience => 'Évaluez votre expérience';
+@override
+String get viewStatus => 'Voir le statut';
 
-  @override
-  String get weValueYourFeedback => 'Nous apprécions vos commentaires ! Veuillez évaluer votre expérience récente avec notre service';
-
-  @override
-  String get viewStatus => "Afficher l'état";
-
-  @override
-  String get paymentInfo => 'Informations de paiement';
-
-  @override
-  String get mobile => 'Mobile:';
-
-  @override
-  String get to => 'à';
-
-  @override
-  String get chooseYourDateRange => 'Choisissez votre plage de dates';
+@override
+String get weValueYourFeedback => 'Nous apprécions vos commentaires';
 }
