@@ -3,6 +3,10 @@ import 'package:booking_system_flutter/locale/languages.dart';
 import '../utils/configs.dart';
 
 class LanguageAr extends BaseLanguage {
+
+  @override
+  String get advancedRefund => 'إعادة تقدم متقدمة';
+
   @override
   String get walkTitle1 => 'إنشاء وإعداد حسابك';
 
@@ -1904,10 +1908,10 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get bookingCancelled => 'تم إلغاء الحجز';
-
+ 
   @override
   String get yourBookingHasBeen => 'لقد تم إلغاء حجزك بنجاح. ستتم معالجة استرداد الأموال المطبق خلال 24 ساعة';
-
+  
   @override
   String get noteCheckYourBooking => 'ملحوظة: تحقق من سجل الحجز الخاص بك للحصول على تفاصيل استرداد الأموال';
 
@@ -2017,50 +2021,44 @@ class LanguageAr extends BaseLanguage {
   String get removeImage => 'إزالة الصورة';
 
   @override
-  String get advancedRefund => 'استرداد متقدم';
+  String get dateRange => 'نطاق التاريخ';
 
   @override
-  String get lblService => 'خدمة';
-
-  @override
-  String get dateRange => 'النطاق الزمني';
+  String get lblService => 'الخدمة';
 
   @override
   String get paymentType => 'نوع الدفع';
 
   @override
-  String get reset => 'إعادة ضبط';
-
-  @override
-  String get noStatusFound => 'لم يتم العثور على حالة';
-
-  @override
-  String get selectStartDateEndDate => 'حدد تاريخ البدء وتاريخ الانتهاء';
+  String get chooseYourDateRange => 'اختر نطاق التاريخ الخاص بك';
 
   @override
   String get handymanNotFound => 'لم يتم العثور على العامل الماهر';
 
   @override
-  String get providerNotFound => 'لم يتم العثور على الموفر';
+  String get mobile => 'التليفون المحمول';
+
+  @override
+  String get noStatusFound => 'لم يتم العثور على حالة';
+
+  @override
+  String get providerNotFound => 'لم يتم العثور على المزود';
 
   @override
   String get rateYourExperience => 'قيم تجربتك';
 
   @override
-  String get weValueYourFeedback => 'نحن نقدر ملاحظاتك! يرجى تقييم تجربتك الأخيرة مع خدمتنا';
+  String get reset => 'إعادة تعيين';
+
+  @override
+  String get selectStartDateEndDate => 'حدد تاريخ البدء والانتهاء';
+
+  @override
+  String get to => 'إلى';
 
   @override
   String get viewStatus => 'عرض الحالة';
 
   @override
-  String get paymentInfo => 'معلومات الدفع';
-
-  @override
-  String get mobile => 'متحرك:';
-
-  @override
-  String get to => 'ل';
-
-  @override
-  String get chooseYourDateRange => 'اختر النطاق الزمني الخاص بك';
+  String get weValueYourFeedback => 'نحن نقدر ملاحظاتك';
 }
