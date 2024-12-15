@@ -281,6 +281,36 @@ abstract class BaseLanguage {
 
   String get lblAboutProvider;
 
+  String get advancedRefund;
+
+  String get lblService;
+
+  String get dateRange;
+
+  String get paymentType;
+
+  String get rateYourExperience;
+
+  String get viewStatus;
+
+  String get weValueYourFeedback;
+
+  String get mobile;
+
+  String get reset;
+
+  String get noStatusFound;
+
+  String get to;
+
+  String get chooseYourDateRange;
+
+  String get selectStartDateEndDate;
+
+  String get handymanNotFound;
+
+  String get providerNotFound;
+
   String get lblNotRatedYet;
 
   String get lblDeleteReview;
@@ -1344,36 +1374,4 @@ abstract class BaseLanguage {
   String get noteYouCanUpload;
 
   String get removeImage;
-
-  String get advancedRefund;
-
-  String get lblService;
-
-  String get dateRange;
-
-  String get paymentType;
-
-  String get reset;
-
-  String get noStatusFound;
-
-  String get selectStartDateEndDate;
-
-  String get handymanNotFound;
-
-  String get providerNotFound;
-
-  String get rateYourExperience;
-
-  String get weValueYourFeedback;
-
-  String get viewStatus;
-
-  String get paymentInfo;
-
-  String get mobile;
-
-  String get to;
-
-  String get chooseYourDateRange;
 }
